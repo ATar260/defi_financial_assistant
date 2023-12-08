@@ -39,8 +39,8 @@ def process_multiple_files(files):
     return combined_text
 
 def main():
-    st.set_page_config(page_title="FileQueryHub", page_icon="📄")
-    st.header("FileQueryHub 📂🤖")
+    st.set_page_config(page_title="Defi_Financial_Assistant", page_icon="📄")
+    st.header("Defi_Financial_Assistant 📂🤖")
 
     files = st.file_uploader(
         "Upload multiple files",
